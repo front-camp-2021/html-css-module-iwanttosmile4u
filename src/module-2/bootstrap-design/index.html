@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-light">
+    <header class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-xs-4 col-sm-8 col-md-8 col-lg-8 col-xl-8 d-flex">
+                        <a>
+                            <img src="./images/header/logo.png" alt="logo">
+                        </a>  
+                        <h1 class="colored-text d-flex justify-content-center align-items-center ms-2 fs-1">Online Store</h1>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar-light mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/header/home.svg" alt="home-icon" width="18" height="24" class="d-inline-block align-text-top">
+        </a>
+        <span class="d-inline-block me-1 lh-sm">&lt &lt</span>
+        <a class="colored-text text-decoration-none lh-sm fw-light" href="#">
+            <span>eCommerce</span>
+        </a>
+        <span class="d-inline-block lh-sm">&lt &lt</span>
+        <span class="lh-sm fw-light">Electronics</span>
+        </div>
+      </nav>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-4">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="d-inline-block fw-light fs-6 pt-1">Filters</span>
+                        <div class="shadow-sm px-3 py-1 bg-body rounded fw-light">&lt&lt</div>
+                    </div>
+                </div>
+                    <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-8">
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-light pt-2">7,618 results found</p>
+                            <div class=" btn colored-bg rounded h-25 me-2">
+                                <img src="./images/filters-icons/heart.svg" alt="favorite">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-4">
+                    <div class="d-flex flex-column shadow-sm bg-body rounded pt-2 ps-4">
+                        <div>
+                            <p class="fw-bold">Multi Range</p>
+                            <div class="py-2">
+                                <input class="form-check-input mb-1" type="radio" value="" aria-label="Radio button for following text input">
+                                <label class="fw-light ms-1" for="form-check-input">$10</label>
+                            </div>
+                            <div class="pb-2">
+                                <input class="form-check-input mb-1" type="radio" value="" aria-label="Radio button for following text input">
+                                <label class="fw-light ms-1" for="form-check-input">$10-$100</label>
+                            </div>
+                            <div class="pb-2">
+                                <input class="form-check-input mb-1" type="radio" value="" aria-label="Radio button for following text input">
+                                <label class="fw-light ms-1" for="form-check-input">$100-$500</label>
+                            </div>
+                            <div class="pb-2">
+                                <input class="form-check-input mb-1" type="radio" value="" aria-label="Radio button for following text input">
+                                <label class="fw-light ms-1" for="form-check-input">$500</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input mb-1" type="radio" value="" aria-label="Radio button for following text input">
+                                <label class="fw-light ms-1" for="form-check-input">All</label>
+                            </div>
+                        </div>
+                        <hr class="w-75 mx-auto">
+                        <div>
+                            <p class="fw-bold">Category</p>
+                            <div class="d-flex flex-row justify-content-between pe-3">
+                                <div class="fw-light">
+                                    <div class="py-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Cell Phones</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Computers & Tablets</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Cell Phone Accessories</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Appliances</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Audio</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">iPhone Accessories</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Cameras & Camcorders</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">iPhone Cases & Clips</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">TV & Home Theater</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Small Kitchen Appliances</label>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column align-items-center fw-light">
+                                    <span class="py-2">1920</span>
+                                    <span class="pb-2">1820</span>
+                                    <span class="pb-2">462</span>
+                                    <span class="pb-2">6556</span>
+                                    <span class="pb-2">120</span>
+                                    <span class="pb-2">353</span>
+                                    <span class="pb-2">45</span>
+                                    <span class="pb-2">456</span>
+                                    <span class="pb-2">55</span>
+                                    <span class="pb-2">10</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="w-75 mx-auto">
+                        <div>
+                            <p class="fw-bold">Brand</p>
+                            <div class="d-flex flex-row justify-content-between pe-3">
+                                <div class="fw-light">
+                                    <div class="py-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Insigni</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Samsung</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Apple</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">HP</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Sony</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Metra</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Dyne</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">LG</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Canon</label>
+                                    </div>
+                                    <div class="pb-2">
+                                        <input class="form-check-input mb-1" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        <label class="ms-1" for="form-check-input">Speck</label>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column align-items-center fw-light">
+                                    <span class="py-2">220</span>
+                                    <span class="pb-2">120</span>
+                                    <span class="pb-2">320</span>
+                                    <span class="pb-2">32</span>
+                                    <span class="pb-2">520</span>
+                                    <span class="pb-2">55</span>
+                                    <span class="pb-2">120</span>
+                                    <span class="pb-2">98</span>
+                                    <span class="pb-2">99</span>
+                                    <span class="pb-2">575</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 col-xl-8">
+                    <form class="d-flex position-relative">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <a class="position-absolute top-50 end-0 translate-middle-y translate-middle-x me-3">
+                            <img src="./images/search-box/search.svg" alt="search">
+                        </a>
+                    </form>
+                </div>
+            </div>
+                
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
