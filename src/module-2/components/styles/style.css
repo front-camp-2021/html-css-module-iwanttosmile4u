@@ -32,43 +32,42 @@ body {
     margin: 22px auto 0 18px;
 }
 
+/* Navigation */
+
 .menu {
     display: flex;
+    padding: 25px 25px;
 }
 
-.home-icon::after {
+.menu__icon::after {
     content: ">>";
     margin: 0 5px;
 }
 
-.home-icon__link {
+.menu__icon-link {
     text-decoration: none;
 }
 
-.tab {
+.menu__tabs {
     display: flex;
 }
 
-.tab-item--active {
+.menu__tabs-item--active {
     font-size: 14px;
     line-height: 17px;
     color: #7E72F2;
 }
 
-.tab-item--active::after {
+.menu__tabs-item--active::after {
     content: ">>";
     margin: 0 5px;
     color: black;
 }
 
-.tab-item {
+.menu__tabs-item {
     font-size: 14px;
     line-height: 17px;
     color: #2C2C2C;
-}
-
-.menu__logo {
-    margin-top: 25px;
 }
 
 /* Aside with filters */
