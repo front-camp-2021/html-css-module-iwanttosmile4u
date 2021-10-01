@@ -1,0 +1,122 @@
+body {
+    background: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.product {
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product .price-item, .product-title {
+    font-weight: bold;
+    color: #2C2C2C;
+}
+
+.product a {
+    text-decoration: none;
+    color: #2C2C2C;
+    cursor: pointer;
+}
+
+.product .rating-item, .btn-cart {
+    background: #6F64F8;
+    color: #FFFFFF;
+}
+
+.product-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 80px 34px;
+    box-sizing: border-box;
+    height: 350px;
+}
+
+.product-rating-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 25px;
+}
+
+.rating-item {
+    border-radius: 3px;
+    border-style: none;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.rating-item::after {
+    content: url("../images/product-icons/star.svg");
+    margin-left: 9px;
+}
+
+.price-item {
+    margin: auto 25px auto auto;
+}
+
+.product-content {
+    margin: 25px 0 22px 24px;
+}
+
+.product-title {
+    line-height: 19px;
+}
+
+.product-description {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.product-buttons button {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;  
+    border-style: none;
+    flex-grow: 1;
+    width: 200px;
+    padding: 14px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.product-buttons {
+    display: flex;
+}
+
+.btn-wishlist {
+    border-radius: 0px 0px 0px 8px;
+}
+
+.btn-wishlist::before {
+    content: url("../images/product-icons/heart.svg");
+    margin-right: 8px;
+}
+
+.btn-cart {
+    border-radius: 0px 0px 8px 0px;
+}
+
+.btn-cart::before {
+    content: url("../images/product-icons/shopping-bag.svg");
+    margin-right: 8px;
+}
